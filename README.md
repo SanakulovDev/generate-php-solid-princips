@@ -1,2 +1,2 @@
-# generator-OOP-princips
+# Generator-OOP-princips
 Model yaratilganda unga mos factory , repository hamda service yaratadigan package qilinmoqda
