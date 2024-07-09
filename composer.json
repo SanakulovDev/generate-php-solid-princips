@@ -1,0 +1,24 @@
+{
+    "name": "app/generator-OOP-princips",
+    "description": "A Yii2 Gii generator extension for creating model-related classes",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-gii": "~2.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "extra": {
+        "yii2": {
+            "gii": {
+                "generators": {
+                    "crud": "app\\generators\\crud\\Generator"
+                }
+            }
+        }
+    }
+}
