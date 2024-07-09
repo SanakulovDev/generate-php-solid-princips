@@ -20,3 +20,4 @@ class <?= $className ?>Repository
         return $model->save();
     }
 }
+
